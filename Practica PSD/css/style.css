@@ -1,0 +1,103 @@
+.wrapper{
+    width: 1440px;
+    font-family: 'Titillium Web';
+    color: white;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* header */
+#header{
+    height: 61px;
+    background-color: #87509c;
+    margin: 0 auto;
+}
+#logo{
+    float: left;
+}
+#menu{
+    float: right;
+    width: 530px;
+}
+#lista{
+    list-style: none;
+    padding: 0px;
+}
+#lista li {
+    float: left;
+}
+#lista li + li {
+    margin-left: 39px;
+}
+#lista a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* main content */
+#mainContent{
+    width: 1440px;
+    height: 534px;
+    background-color: #87509c;
+    margin: 0 auto;
+}
+h1{
+    size: 595px;
+    display: inline;
+}
+
+/* services we provides */
+#services{
+    width: 1440px;
+    height: 747px;
+    background-color: #17c2a4;
+    margin: 0 auto;
+    position: center;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+#boton{
+    text-align: center;
+    padding: 28px 82px 28px 82px;
+}
+
+#boton a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #eb7d4b;
+    padding: 28px 82px 28px 82px;
+}
+
+/* footer */
+#footer{
+    width: 1440px;
+    height: 104px;
+    background-color: #344b8e;
+    margin: 0 auto;
+}
+
+
